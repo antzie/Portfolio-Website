@@ -1,0 +1,103 @@
+/*Breakpoints*/
+
+/*This section styles hamburger menu - i.e. the top navbar
+at small screen sizes*/
+
+@media screen and (max-width: 499px) {
+
+  #menu_icon {
+    font-size: 30px;
+    cursor:pointer;
+  }
+
+  /*Styling for the top nav bar*/
+  .top_nav {
+    display: block;
+    height: auto;
+    width: 0;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    background-color: #fdf6f9d9;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 10px;
+    border-radius: 5px;
+  }
+
+  .top_nav a {
+    padding: 24px 12px;
+    text-decoration: none;
+    color: inherit;
+    font-size: 1.2em;
+    display: block;
+    transition: 0.3s;
+  }
+
+  .top_nav a:hover {
+    color: #f2828d;
+  }
+
+  .top_nav .close_respon_nav {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 3em;
+    padding: 12px;
+  }
+}
+
+@media screen and (min-width: 500px) {
+  /*Hide both the menu icon and the close-button
+  at higher resolutions*/
+
+  #menu_icon, .top_nav a:first-child {
+    display: none;
+  }
+
+  .top_nav {
+    width: 100% !important;   /*TODO Temporary fix. Refactor if poss to stop JS styles overriding CSS*/
+  }
+}
+
+/********************************************************************/
+
+/*Change the layout of the rest of the page -
+at different resolutions*/
+
+@media screen and (min-width: 420px) {
+  .featured_work:not(:first-child) {
+      grid-template-columns: auto auto;
+      grid-column-gap: 5%;
+  }
+
+  .featured_image, .featured_desc{
+    width: 100%;
+  }
+
+  .top_picture-image {
+   max-height: 350px;
+  }
+}
+
+@media screen and (min-width: 800px){
+
+  .featured_work:not(:first-child) {
+    grid-template-columns: auto auto auto;
+  }
+
+  .featured_example{
+    max-width: 200px;
+  }
+}
+
+
+/*Add margin around entire content at high resolutions*/
+@media screen and (min-width: 899px) {
+  body {
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

@@ -1,0 +1,159 @@
+/*Main CSS Styling*/
+body {
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-weight: 400;
+  background-color: white;
+  color: #225e89;
+  margin: 0 2%;
+}
+
+img {
+  max-width: 100%;
+}
+
+/************************************/
+/*Header at top of Page Styling */
+
+header {
+  border-bottom: 1px solid #c9d3d5;
+  border-radius: 3px;
+}
+
+.header_inner {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 1%;
+}
+
+.header_logo {
+  height: 50px;
+  padding-bottom: 3px;
+}
+
+.header_title h1 {
+  margin: 0;
+  font-weight: 100;
+  font-size: 1.5em;
+}
+
+.header_title h2 {
+  margin: 0;
+  padding-top: 3px;
+  font-weight: normal;
+  font-size: 1em;
+  text-align: center;
+}
+
+/************************************/
+/* Main Top Navbar Styling */
+
+.top_nav {
+  background-color: #fcfcfc;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-column-gap: 15%;
+  justify-content: center;
+  border-top: 1px solid #c9d3d5;
+  border-radius: 3px;
+}
+
+.top_nav a{
+  min-width: 48px;
+  text-decoration: none;
+  color: #225e89;
+  font-size: 1em;
+}
+
+/*****************************************/
+/*Main Content Styling*/
+
+/*****************/
+/*Top Picture*/
+
+.top_picture {
+  border-bottom: 2px solid #c9d3d5;
+  padding-top:10px;
+}
+
+.top_picture-image {
+  max-height: 200px;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.top_picture_para {
+  font-style: italic;
+  text-align: center;
+  margin: 5px 0px;
+  background-color: #fcfcfc;
+}
+
+/*****************/
+/*Featured Work*/
+
+#heading_featured_work {
+  border-bottom: 1px dotted #c9d3d5;
+  margin: 0;
+  padding: 2% 0;
+}
+
+.featured_work {
+  display: grid;
+  grid-template-columns: auto;
+  grid-column-gap: 5px;
+  justify-content: space-evenly;
+  align-items: first baseline;
+  border-bottom: 2px solid #c9d3d5;
+}
+
+.featured_example {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  border-bottom: 1px dotted #c9d3d5;
+  padding: 5% 0;
+}
+
+.heading_featured_example {
+  width: 100%;
+  margin: 0;
+  padding-bottom: 2%;
+}
+
+.featured_image {
+  display: block;
+  margin: 0;
+  padding: 0;
+  width: 49%;
+  height: auto;
+}
+
+.featured_image img {
+  border-radius: 5px;
+  width: 100%;
+}
+
+.featured_desc {
+  width: 49%;
+  margin: 0;
+  padding: 0;
+}
+
+.featured_desc p {
+  margin: 0;
+}
+
+/***********************/
+/*footer styling*/
+
+footer ul {
+  list-style: none;
+  padding: 0 0 10px 0;
+  border-bottom:  2px solid #c9d3d5;
+}
+
+footer nav {
+  text-align: center;
+}
