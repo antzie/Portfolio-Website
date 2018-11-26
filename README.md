@@ -1,5 +1,6 @@
 # Portfolio-Website
-Basic Template For a Portfolio Website. Includes responsive navbars, links and layout. Part of Udacity's Full Stack Nanodegree.
+Template for a personal porlio page built using HTML and CSS. Responsive across mobile, tablet and desktop browsers
+ Includes responsive navbars, links and layout. Part of Udacity's Full Stack Nanodegree.
 
 ## Installation.
 Clone the GitHub repository.
