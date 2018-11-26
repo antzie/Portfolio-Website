@@ -1,5 +1,5 @@
 # Portfolio-Website
-Template for a personal porlio page built using HTML and CSS. Responsive across mobile, tablet and desktop browsers
+Template for a personal portfolio page built using HTML and CSS. Responsive across mobile, tablet and desktop browsers
  Includes responsive navbars, links and layout. Part of Udacity's Full Stack Nanodegree.
 
 ## Installation.
