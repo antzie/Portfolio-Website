@@ -10,6 +10,7 @@ $ git clone https://github.com/antzie/Portfolio-Website.git
 ```
 ## Open.
 Go to the directory you cloned the repository into.
+
 Open ```portfolio.html``` in browser of your choice. 
 
 ## License.
